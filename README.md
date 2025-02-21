@@ -7,10 +7,8 @@ Esta API permite a criação e gerenciamento de eventos, bem como a inscrição 
 - **Linguagem:** Java 23
 - **Framework:** Spring Boot
 - **Gerenciador de Dependências:** Maven
-- **Banco de Dados:** MySQL (ou versão mais recente disponível)
-- **Autenticação:** JWT
+- **Banco de Dados:** MySQL (versão mais recente disponível)
 - **Testes da API:** Insomnia (versão mais recente disponível)
-- **Documentação:** Swagger
 
 ## 📌 Funcionalidades
 ✅ **Criação de eventos**  
@@ -57,7 +55,7 @@ Esta API permite a criação e gerenciamento de eventos, bem como a inscrição 
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/devguilara/api-agendador-eventos
    cd seu-repositorio
    ```  
 
@@ -71,7 +69,6 @@ Esta API permite a criação e gerenciamento de eventos, bem como a inscrição 
    spring.datasource.url=jdbc:mysql://localhost:3306/seu-banco
    spring.datasource.username=root
    spring.datasource.password=senha
-   jwt.secret=seu-segredo
    ```  
 
 4. Inicie a aplicação:
